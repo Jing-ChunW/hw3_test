@@ -6,6 +6,7 @@
 #include "MQTTNetwork.h"
 #include "MQTTmbed.h"
 #include "MQTTClient.h"
+/*
 #include "accelerometer_handler.h"
 #include "config.h"
 #include "magic_wand_model_data.h"
@@ -17,7 +18,7 @@
 #include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
 #include "tensorflow/lite/schema/schema_generated.h"
 #include "tensorflow/lite/version.h"
-
+*/
 //DigitalOut myled(LED3);
 RpcDigitalOut myled1(LED1, "myled1"); // for gesture indicate
 RpcDigitalOut myled2(LED2, "myled2"); // for detection indicate
@@ -181,7 +182,7 @@ int wifi_halfcode() {
     printf("Successfully closed!\n");
     return 0;
 }
-
+/*
 // Create an area of memory to use for input, output, and intermediate arrays.
 // The size of this will depend on the model you're using, and may need to be
 // determined by experimentation.
@@ -227,7 +228,7 @@ int PredictGesture(float* output) {
 
   return this_predict;
 }
-
+*/
 float S, D, U;
 /*
 int main() {
@@ -241,7 +242,7 @@ int main(int argc, char* argv[]) {
 ////////////////////////////////////////////
     WIFI_half.start(wifi_halfcode);
   // Whether we should clear the buffer next time we fetch data
-  bool should_clear_buffer = false;
+  /*bool should_clear_buffer = false;
   bool got_data = false;
 
   // The gesture index of the prediction
@@ -340,7 +341,7 @@ int main(int argc, char* argv[]) {
     if (gesture_index < label_num) {
       error_reporter->Report(config.output_message[gesture_index]);
     }
-  }
+  }*/
 }
 
 void gesture_mode()
