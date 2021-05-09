@@ -129,6 +129,7 @@ BUILD/B_L4S5I_IOT01A/GCC_ARM/mbed-os/connectivity/mbedtls/source/error.o: \
  /home/ee2405/ee2405/mbed-os/connectivity/mbedtls/include/mbedtls/rsa.h \
  /home/ee2405/ee2405/mbed-os/connectivity/mbedtls/include/mbedtls/ecdsa.h \
  /home/ee2405/ee2405/mbed-os/connectivity/mbedtls/include/mbedtls/pem.h \
+ /home/ee2405/ee2405/mbed-os/connectivity/mbedtls/include/mbedtls/sha1.h \
  /home/ee2405/ee2405/mbed-os/connectivity/mbedtls/include/mbedtls/sha256.h \
  /home/ee2405/ee2405/mbed-os/connectivity/mbedtls/include/mbedtls/ssl.h \
  /home/ee2405/ee2405/mbed-os/connectivity/mbedtls/include/mbedtls/ssl_ciphersuites.h \
