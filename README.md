@@ -10,6 +10,6 @@ screen會顯示/doGesture/run 0來中止以手勢選擇角度的功能。
 在screen上輸入/doAngledetect/run 1，看到LED2亮起，此時LED3橘燈也會亮起幾秒再變暗，LED3亮的期間須把板子平放在桌面測量reference angle，
 等到LED3暗下來，就能開始轉板子的角度，uLCD上也能看到此時的角度，若是超過剛剛所選定的角度就會在screen上顯示此時的角度以及這是第幾次超過原本選定的角度，
 也會傳送到client端，目前是設定超過10次之後就會停止測量角度與比較角度，所以10次之後就會收到(screen上顯示)/doAngledetect/run 0，來停止測量角度。
-(可以點開圖片![screen](https://user-images.githubusercontent.com/79584696/117698088-e3177000-b1f5-11eb-9ff1-c34b316e2d56.PNG)
-來看screen會出現的結果)
+![screen](https://user-images.githubusercontent.com/79584696/117698088-e3177000-b1f5-11eb-9ff1-c34b316e2d56.PNG)
+
 
