@@ -2,11 +2,11 @@
     "config": {
     "wifi-ssid": {
             "help": "WiFi SSID",
-            "value": "\"NELAB\""
+            "value": "\"JCW\""
     },
     "wifi-password": {
             "help": "WiFi Password",
-            "value": "\"nelab308\""
+            "value": "\"0963149775\""
     }
     },
     "target_overrides": {

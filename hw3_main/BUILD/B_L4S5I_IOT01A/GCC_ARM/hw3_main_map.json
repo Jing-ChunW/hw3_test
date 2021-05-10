@@ -1,11 +1,22 @@
 [
     {
+        "module": "../..",
+        "size": {
+            ".text": 65484,
+            ".data": 543,
+            ".bss": 14045,
+            ".text-delta": 65484,
+            ".data-delta": 543,
+            ".bss-delta": 14045
+        }
+    },
+    {
         "module": "4dgl-ulcd-se/uLCD_4DGL_Text.o",
         "size": {
-            ".text": 338,
+            ".text": 0,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": 0,
+            ".text-delta": -338,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -13,10 +24,10 @@
     {
         "module": "4dgl-ulcd-se/uLCD_4DGL_main.o",
         "size": {
-            ".text": 538,
+            ".text": 0,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": 0,
+            ".text-delta": -538,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -24,23 +35,34 @@
     {
         "module": "BSP_B-L475E-IOT01/Drivers",
         "size": {
-            ".text": 694,
-            ".data": 52,
-            ".bss": 220,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -694,
+            ".data-delta": -52,
+            ".bss-delta": -220
+        }
+    },
+    {
+        "module": "BUILD/B_L4S5I_IOT01A",
+        "size": {
+            ".text": 9042,
+            ".data": 72,
+            ".bss": 3095,
+            ".text-delta": 9042,
+            ".data-delta": 72,
+            ".bss-delta": 3095
         }
     },
     {
         "module": "[fill]",
         "size": {
-            ".text": 202,
+            ".text": 250,
             ".data": 10,
-            ".bss": 55,
-            ".text-delta": -8,
+            ".bss": 47,
+            ".text-delta": 44,
             ".data-delta": 0,
-            ".bss-delta": 0
+            ".bss-delta": -8
         }
     },
     {
@@ -101,152 +123,152 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 4908,
-            ".data": 4,
-            ".bss": 2795,
-            ".text-delta": 8,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -4956,
+            ".data-delta": -4,
+            ".bss-delta": -2867
         }
     },
     {
         "module": "mbed-os/cmsis",
         "size": {
-            ".text": 9262,
-            ".data": 168,
-            ".bss": 6212,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -9262,
+            ".data-delta": -168,
+            ".bss-delta": -6212
         }
     },
     {
         "module": "mbed-os/connectivity",
         "size": {
-            ".text": 10924,
-            ".data": 99,
-            ".bss": 181,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -10924,
+            ".data-delta": -99,
+            ".bss-delta": -181
         }
     },
     {
         "module": "mbed-os/drivers",
         "size": {
-            ".text": 4626,
+            ".text": 0,
             ".data": 0,
-            ".bss": 928,
-            ".text-delta": 0,
+            ".bss": 0,
+            ".text-delta": -4894,
             ".data-delta": 0,
-            ".bss-delta": 0
+            ".bss-delta": -928
         }
     },
     {
         "module": "mbed-os/events",
         "size": {
-            ".text": 1526,
+            ".text": 0,
             ".data": 0,
-            ".bss": 3104,
-            ".text-delta": 0,
+            ".bss": 0,
+            ".text-delta": -1526,
             ".data-delta": 0,
-            ".bss-delta": 0
+            ".bss-delta": -3104
         }
     },
     {
         "module": "mbed-os/hal",
         "size": {
-            ".text": 1658,
-            ".data": 8,
-            ".bss": 114,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -1658,
+            ".data-delta": -8,
+            ".bss-delta": -114
         }
     },
     {
         "module": "mbed-os/platform",
         "size": {
-            ".text": 5980,
-            ".data": 260,
-            ".bss": 516,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -5980,
+            ".data-delta": -260,
+            ".bss-delta": -516
         }
     },
     {
         "module": "mbed-os/rtos",
         "size": {
-            ".text": 1322,
+            ".text": 0,
             ".data": 0,
-            ".bss": 8,
-            ".text-delta": 0,
+            ".bss": 0,
+            ".text-delta": -1322,
             ".data-delta": 0,
-            ".bss-delta": 0
+            ".bss-delta": -8
         }
     },
     {
         "module": "mbed-os/storage",
         "size": {
-            ".text": 36,
+            ".text": 0,
             ".data": 0,
-            ".bss": 4,
-            ".text-delta": 0,
+            ".bss": 0,
+            ".text-delta": -36,
             ".data-delta": 0,
-            ".bss-delta": 0
+            ".bss-delta": -4
         }
     },
     {
         "module": "mbed-os/targets",
         "size": {
-            ".text": 20108,
-            ".data": 8,
-            ".bss": 1664,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -20108,
+            ".data-delta": -8,
+            ".bss-delta": -1664
         }
     },
     {
         "module": "mbed-os/wifi-ism43362",
         "size": {
-            ".text": 9606,
+            ".text": 0,
             ".data": 0,
-            ".bss": 1314,
-            ".text-delta": 0,
+            ".bss": 0,
+            ".text-delta": -9606,
             ".data-delta": 0,
-            ".bss-delta": 0
+            ".bss-delta": -1314
         }
     },
     {
         "module": "mbed_rpc/mbed_rpc",
         "size": {
-            ".text": 906,
-            ".data": 16,
-            ".bss": 4,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -906,
+            ".data-delta": -16,
+            ".bss-delta": -4
         }
     },
     {
         "module": "wifi_mqtt/MQTT",
         "size": {
-            ".text": 1758,
+            ".text": 0,
             ".data": 0,
-            ".bss": 4,
-            ".text-delta": 0,
+            ".bss": 0,
+            ".text-delta": -1758,
             ".data-delta": 0,
-            ".bss-delta": 0
+            ".bss-delta": -4
         }
     },
     {
         "summary": {
-            "static_ram": 20344,
-            "static_ram_delta": 0,
-            "total_flash": 132112,
-            "total_flash_delta": 0
+            "static_ram": 20408,
+            "static_ram_delta": -8,
+            "total_flash": 132496,
+            "total_flash_delta": 64
         }
     }
 ]
